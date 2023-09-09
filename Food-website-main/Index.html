@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Food / Restaurant Website Design</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i>भोजन </a>
+
+   <nav class="navbar">
+      <a href="#home">डैशबोर्ड</a>
+      <a href="#about">मेरे बारे में</a>
+      <a href="#food">खाना</a>
+      <a href="#order">आदेश</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(./images/jollof.jpg) no-repeat;">
+            <div class="content">
+               <span>खाना</span>
+               <h3> खाओ</h3>
+               <a href="#" class="btn">शुरु करे</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/bread.jpg) no-repeat;">
+            <div class="content">
+               <span>खाना</span>
+               <h3>खिलना</h3>
+               <a href="#" class="btn">शुरु करे</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/egusi.jpg) no-repeat;">
+            <div class="content">
+               <span>खाना</span>
+               <h3>बाँटना</h3>
+               <a href="#" class="btn">शुरु करे</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+<!-- About section start -->
+
+
+<section class="about" id="about">
+
+<div class="image">
+   <img src="./images/about-img.png" alt="">
+</div>
+
+<div class="content">
+   <h3 class="title">आपका स्वागत है हमारे रेस्टुरेंट में</h3>
+   <p>यहाँ सबी प्रकर का खाना नहीं मिलता है भारतीय खाना मिलता है आए खाये खिलाये और पुण्य पाये। धन्यावाद - शिवम</p>
+      <a href="#" class="btn">शुरु करे</a>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="./images/about-icon-1.png" alt="">
+            <h3>अच्छा भोजन</h3>
+         </div>
+         <div class="icons">
+            <img src="./images/about-icon-2.png" alt="">
+            <h3>भोजन और डेसर्ट</h3>
+         </div>
+         <div class="icons">
+            <img src="./images/about-icon-3.png" alt="">
+            <h3>भारतीय शेफ</h3>
+         </div>
+      </div>
+</div>
+
+</section>
+
+
+<!-- About section ends -->
+<!-- food section starts -->
+
+<section class="food" id="food">
+
+   <div class="heading">
+   <span>लोकप्रिय भोजन</span>
+   <h3>हमारे प्रसिद्ध भोजन</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+     <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide" data-name="food-1">
+         <img src="images\DAL CHAWAL.jpg" alt="">
+         <h3>चावल और दाल</h3>
+         <div class="price">35RS</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-2">
+         <img src="images\KHICHDI.jpg" alt="">
+         <h3>खिचड़ी</h3>
+         <div class="price">50RS</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-3">
+         <img src="images\CHOLE KULCHE.jpg" alt="">
+         <h3>छोले कुलचे</h3>
+         <div class="price">60RS</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-4">
+         <img src="images\CHAPATI BHAJI.jpg" alt="">
+         <h3>चपाती भाजी</h3>
+         <div class="price">40RS</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-5">
+         <img src="images\PURI SABJI.jpg" alt="">
+         <h3>पुरी सब्जी</h3>
+         <div class="price">50RS</div>
+      </div>
+</div>
+
+   <div class="swiper-pagination"></div>
+
+</div>
+
+</section>
+
+<!-- food section ends -->
+<!-- food preview section starts -->
+
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images\DAL CHAWAL.jpg" alt="">
+      <h3>चावल और दाल</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-2">
+      <img src="images\KHICHDI.jpg" alt="">
+      <h3>खिचड़ी</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <div class="price">60RS</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-3">
+      <img src="images\CHOLE KULCHE.jpg" alt="">
+      <h3>छोले कुलचे</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <div class="price">60RS</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-4">
+      <img src="images\CHAPATI BHAJI.jpg" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <div class="price">40RS</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-5">
+      <img src="images\PURI SABJI.jpg" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <div class="price">50RS</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- Menu section ends -->
+<!-- order section starts -->
+
+<section id="order" class="order">
+   <div class="heading">
+      <span>order now</span>
+      <h3>Home Delivery</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <input type="text" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <iframe class="map" src="https://www.google.co.in/maps/place/Kurar+Metro+Station/@19.187153,72.8604035,16.9z/data=!4m6!3m5!1s0x3be7b73c354ea19b:0x995da9349c3fa59c!8m2!3d19.1876237!4d72.8582922!16s%2Fg%2F11twf9v358?entry=ttu" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="order now" class="btn">
+   </form>
+</section>
+
+
+
+
+<!-- blog section ends-->
+<!-- footer section starts-->
+
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+            <h3>opening hour</h3>
+            <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+            <h3>phone</h3>
+            <p>+91 9653234089</p>
+            <p>+91 2356478915</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>shivam101981@gmail.com</p>
+            <p>shivam.n.pandey@slrtce.in</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+            <h3>address</h3>
+            <p>Mumbai India</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
+      <a href="https://twitter.com/Shivam200315" target="_blank" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/shivam_5404/" target="_blank" class="fab fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/shivam-pandey-833121248/" target="_blank" class="fab fa-linkedin"></a>
+   </div>
+
+   <div class="credit">created by <span>Shivam Pandey</span></div>
+
+</section>
+
+
+<!-- footer section ends-->
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+
+
+</body>
+</html>
